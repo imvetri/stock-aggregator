@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/imvetri/stock-aggregator/issues"
   },
-  "homepage": "https://github.com/imvetri/stock-aggregator#readme"
+  "homepage": "https://github.com/imvetri/stock-aggregator#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
