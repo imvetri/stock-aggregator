@@ -1,0 +1,67 @@
+
+#app{
+    max-height: 88vh;
+    overflow-y: scroll;
+}
+header{
+    width: 50%;
+    margin: auto auto;
+}
+.analyst{
+  border : 1px solid black;
+  border-radius: 5px;
+  display : flex;
+  padding: 18px;
+  width: 50%;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+  background: lightgrey;
+}
+
+.analyst:hover{
+  box-shadow: 10px 10px 12px lightgrey;
+  background: gray;
+}
+.analyst-pic{
+  border : 1px solid black;
+  min-width : 100px;
+  min-height : 100px;
+}
+
+.dummy{
+  -webkit-animation: blur 2s infinite;
+}
+
+@keyframes blur {
+  0%, 100%  { -webkit-filter: blur(20px); }
+  50% { -webkit-filter: blur(5px); }
+}
+
+.analyst aside{
+  padding-left: 20px;
+}
+
+.analyst h3{
+  margin-top:-20px;
+}
+
+.next{
+  position:fixed;
+  top:50%;
+  right:1%;
+}
+.prev{
+  position:fixed;
+  top:50%;
+}
+
+.medium{
+  font-size:50px;
+  background: lightgrey;
+  padding: 20px;
+}
+
+.hide{
+  display:none;
+}

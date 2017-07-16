@@ -1,13 +1,84 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Page Title</title>
+    <title>Page Title</title>
+    <link href="styles.css" rel="stylesheet"></link>
+    <script src="vendor/jquery-3.2.1.min.js" defer></script>
+    <script src="main.js" defer></script>
+    <script id="analystTemplate" type="text/template">
+        <section class='analyst'>
+            <a target='_blank' href='url'>
+                <img class='analyst-pic' src='http://trstorage1.blob.core.windows.net/expert-pictures/expertPictureURL' alt='text' />
+            </a>
+            <aside>
+                <h2>analystName</h2>
+                <h3>firmName</h3>
+                <h4>successRate Rate of success</h4>
+            </aside>
+        </section>
+    </script>
 </head>
+
 <body>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+    <header>
+        <h1> Stock Recommendations </h1>
+    </header>
+    <div id='app'>
+        <div class='dummy'>
+            <section class='analyst'>
+                <img class='analyst-pic' src='' alt='text' />
+                <aside>
+                    <h2>Analyst Name</h2>
+                    <h3>Company Name</h3>
+                    <h4>x/y Rate of success</h4>
+                </aside>
+            </section>
+            <section class='analyst'>
+                <img class='analyst-pic' src='' alt='text' />
+                <aside>
+                    <h2>Analyst Name</h2>
+                    <h3>Company Name</h3>
+                    <h4>x/y Rate of success</h4>
+                </aside>
+            </section>
+            <section class='analyst'>
+                <img class='analyst-pic' src='' alt='text' />
+                <aside>
+                    <h2>Analyst Name</h2>
+                    <h3>Company Name</h3>
+                    <h4>x/y Rate of success</h4>
+                </aside>
+            </section>
+
+            <section class='analyst'>
+                <img class='analyst-pic' src='' alt='text' />
+                <aside>
+                    <h2>Analyst Name</h2>
+                    <h3>Company Name</h3>
+                    <h4>x/y Rate of success</h4>
+                </aside>
+            </section>
+            <section class='analyst'>
+                <img class='analyst-pic' src='' alt='text' />
+                <aside>
+                    <h2>Analyst Name</h2>
+                    <h3>Company Name</h3>
+                    <h4>x/y Rate of success</h4>
+                </aside>
+            </section>
+        </div>
+
+    </div>
+
+
+    <div class='next medium hide'>
+        &gt
+    </div>
+    <div class='prev medium hide'>
+        &lt </div>
 
 </body>
+
 </html>
-Try it Yourself »
